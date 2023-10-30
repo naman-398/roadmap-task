@@ -117,13 +117,13 @@
 }
 .closeBtn {
     top: 2% !important;
-    right: 0% !important;
+    right: 4% !important;
     cursor: pointer;
 }
 .vector2{
     z-index: 0;
     right: 0;
-    top: 7px;
+    top: 7%;
 }
 @media (min-width:450px) {}
 @media (min-width:576px) {
