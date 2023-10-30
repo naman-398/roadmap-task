@@ -102,34 +102,44 @@
 }
 
 .big-box1 {
-    padding: 75px 44px;
+    padding: 37px 10px;
     border-radius: 19px;
     border: 7px solid var(--white);
 }
-.big-boxpara{
+
+.big-boxpara {
     max-width: 100%;
     line-height: normal;
 }
-.vector1{
+
+.vector1 {
     top: 10%;
     left: 0;
     z-index: 0;
 }
+
 .closeBtn {
     top: 2% !important;
     right: 4% !important;
     cursor: pointer;
 }
-.vector2{
+
+.vector2 {
     z-index: 0;
     right: 0;
     top: 7%;
 }
+
 @media (min-width:450px) {}
+
 @media (min-width:576px) {
-    .big-boxpara{
+    .big-boxpara {
         max-width: 690px;
         line-height: 150%;
+    }
+
+    .big-box1 {
+        padding: 75px 65px;
     }
 }
 
@@ -183,10 +193,12 @@
     .svg1-padding1 {
         padding: 34px 0 24px 0;
     }
-    .big-boxpara{
+
+    .big-boxpara {
         max-width: 690px;
         line-height: 150%;
     }
+
     .card1 {
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.60);
